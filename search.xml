@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Cloudflare免费防护配置教程</title>
+      <link href="/archives/50a7fc42.html"/>
+      <url>/archives/50a7fc42.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Cloudflare免费防护配置教程"><a href="#Cloudflare免费防护配置教程" class="headerlink" title="Cloudflare免费防护配置教程"></a>Cloudflare免费防护配置教程</h1><blockquote><h2 id="CloudFlare介绍"><a href="#CloudFlare介绍" class="headerlink" title="CloudFlare介绍"></a>CloudFlare介绍</h2></blockquote><ul><li>CloudFlare是全球领先的CDN服务提供商，其提供的免费且足量的服务是诸多站长遭受网络攻击时的“避风港<br><img src="https://s2.loli.net/2023/05/10/i2I9zxWFEynHas6.jpg" alt="2022-03-08_02-35-15.jpg"></li></ul><blockquote><h2 id="注册Cloudflare并接入域名："><a href="#注册Cloudflare并接入域名：" class="headerlink" title="注册Cloudflare并接入域名："></a>注册<strong>Cloudflare</strong>并接入域名：</h2></blockquote><ul><li><p>访问：<a href="https://www.cloudflare.com/zh-cn">https://www.cloudflare.com/zh-cn</a>, 注册账号，登录</p></li><li><p>填写您的域名，注意格式为<br><img src="https://s2.loli.net/2023/05/10/MDUvEPXq8ogCSrc.png" alt="image.png"></p></li><li><p>选择免费套餐，然后添加记录，填写子域名并修改DNS（DNS在域名注册地修改）<br><img src="https://s2.loli.net/2023/05/10/acF8nDZgLB7eVNr.png" alt="image.png"><br><img src="https://s2.loli.net/2023/05/10/zsauRF4e38TiEyh.png" alt="image.png"></p></li><li><p>我们的域名已经成功Cloudflare了，接下来开始简单配置防护策略</p></li></ul><hr><blockquote><h2 id="开启Cloudflare的防护配置："><a href="#开启Cloudflare的防护配置：" class="headerlink" title="开启Cloudflare的防护配置："></a>开启Cloudflare的防护配置：</h2></blockquote><ul><li><p>点击 <strong>安全性</strong> 开启<strong>DDOS</strong>和<strong>自动程序</strong> ，两个都开启<br><img src="https://s2.loli.net/2023/05/10/2xUwrI9ghKnaZoL.png" alt="image.png"><br><img src="https://s2.loli.net/2023/05/10/8e596AyufYhoXFQ.png" alt="image.png"></p></li><li><p>配置一下屏蔽海外，针对对一些全国代理的CC，如果你的网站是开放全国的话就不用开启<br><img src="https://s2.loli.net/2023/05/10/kIZa5VjHNUh3gqB.png" alt="image.png"></p></li><li><p>速率限制规则也需要开启，主要实现的是同个IP【10秒内请求数&gt;n】时对其返回429阻止访问。如图填写/可对zone下所有域名进行保护，个人博客正常情况下n建议设置为50，资源更多的站点可以考虑适当放大（以不影响正常访问为准）<br><img src="https://s2.loli.net/2023/05/10/VFvciUPDkLb8sxy.png" alt="image.png"></p></li><li><p>最后在开始配置防火墙规则之前，请先前往【防火墙】-【设置】下，将【Privacy Pass支持】关闭，以避免一种绕过质询的可能（尽管如此，免费版的hCaptcha依然存在可绕过的方式，所以在较严重的情况下应适当选择阻止部分访问）。<br><img src="https://s2.loli.net/2023/05/10/DgaZYEPovG1lKMf.png" alt="image.png"></p></li></ul><hr><ul><li><p>这篇博客对于CF WAF的配置分享到此告一段落了，但是对这些规则的应用仍有正则表达式等更高级的应用方式去探索，结合实际，准确地发掘并圈定恶意攻击特征，积极利用好这些已有的资源，最大限度减小对正常用户访问的影响是有必要的。</p></li><li><p>此外本站采用的就是Cloudflare，欢迎各位黑客测试站点的防护强度 </p></li><li><p>用的好的话，留下评论哦~  <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=IpiJWmlUDh3GfpIOVZXUD6lEwpOouDLb&amp;authKey=HlAOQyAqi4qKCk2IOUAtJ223GUynWs9UIGfOmv6vgfB3Q2tC42sz+HUbTdlLLo41&amp;noverify=0&amp;group_code=814449041">L7站长抗压交流群：814449041</a> （提供免费CC机器人测试）</p></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> CDN </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>欢迎，各位大佬，对本站进行：压力测试</title>
       <link href="/archives/undefined.html"/>
       <url>/archives/undefined.html</url>
