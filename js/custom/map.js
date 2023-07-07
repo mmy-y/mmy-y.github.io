@@ -57,36 +57,6 @@ function showWelcome() {
         case "加拿大":
             posdesc = "拾起一片枫叶赠予你";
             break;
-        case "新加坡":
-            posdesc = "欢迎来自新加坡的朋友~快来看看小博客把";
-            break;
-        case "泰国":
-            posdesc = "萨瓦迪卡~欢迎大家~";
-            break;
-        case "柬埔寨":
-            posdesc = "我有三个腰子！，我来了~";
-            break;
-        case "越南":
-            posdesc = "欢迎你的到来，让我们一起为美好明天而努力！";
-            break;
-        case "乌克兰":
-            posdesc = "愿世界没有战争~愿您一生平安~";
-            break;
-        case "南非":
-            posdesc = "欢迎你的到来，让我们的生活更加多姿多彩，让我们的心中充满阳光！";
-            break;
-        case "越南":
-            posdesc = "欢迎你的到来，让我们一起为美好明天而努力！";
-            break;
-        case "巴西":
-            posdesc = "欢迎你的到来，让我们一起为美好明天而努力！";
-            break;
-        case "朝鲜":
-            posdesc = "欢迎你的到来，让我们一起为美好明天而努力！";
-            break;
-        case "马来西亚":
-            posdesc = "欢迎你的到来，让我们一起为美好明天而努力！";
-            break;
         case "中国":
                 pos = ipLocation.data.prov + " " + ipLocation.data.city + " " + ipLocation.data.district;
                 switch (ipLocation.data.prov) {
@@ -282,7 +252,7 @@ document.addEventListener("pjax:complete", showWelcome);
 // 4. 将请求成功后的数据渲染到welcome-info2元素中
 
 let xhr = new XMLHttpRequest();
-xhr.open('get', 'https://m.hsxbk.top/project/api/get_safe.php');
+xhr.open('get', 'https://api.mmy66.cc/mmy66-api-tj.php');
 xhr.send();
 xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
