@@ -57,6 +57,36 @@ function showWelcome() {
         case "加拿大":
             posdesc = "拾起一片枫叶赠予你";
             break;
+        case "新加坡":
+            posdesc = "欢迎来自新加坡的朋友~快来看看小博客把";
+            break;
+        case "泰国":
+            posdesc = "萨瓦迪卡~欢迎大家~";
+            break;
+        case "柬埔寨":
+            posdesc = "我有三个腰子！，我来了~";
+            break;
+        case "越南":
+            posdesc = "欢迎你的到来，让我们一起为美好明天而努力！";
+            break;
+        case "乌克兰":
+            posdesc = "愿世界没有战争~愿您一生平安~";
+            break;
+        case "南非":
+            posdesc = "欢迎你的到来，让我们的生活更加多姿多彩，让我们的心中充满阳光！";
+            break;
+        case "越南":
+            posdesc = "欢迎你的到来，让我们一起为美好明天而努力！";
+            break;
+        case "巴西":
+            posdesc = "欢迎你的到来，让我们一起为美好明天而努力！";
+            break;
+        case "朝鲜":
+            posdesc = "欢迎你的到来，让我们一起为美好明天而努力！";
+            break;
+        case "马来西亚":
+            posdesc = "欢迎你的到来，让我们一起为美好明天而努力！";
+            break;
         case "中国":
                 pos = ipLocation.data.prov + " " + ipLocation.data.city + " " + ipLocation.data.district;
                 switch (ipLocation.data.prov) {
@@ -239,3 +269,29 @@ function showWelcome() {
 window.onload = showWelcome;
 // 如果使用了pjax在加上下面这行代码
 document.addEventListener("pjax:complete", showWelcome);
+
+
+
+// 使用ajax 请求一个地址 请求方式是post  'https://wangzhan.qianxin.com/report/get_dafebase_data'
+// 请求的参数是 domain=mmy66.cc&host_base64=QA%3D%3D&host=%40&type=today&visit_status=s
+// 请求头是  'Content-Type': 'application/x-www-form-urlencoded'
+// 请求成功后的回调函数
+// 1. 通过id获取到welcome-info1元素
+// 2. 通过id获取到welcome-info2元素
+// 3. 将请求成功后的数据渲染到welcome-info1元素中
+// 4. 将请求成功后的数据渲染到welcome-info2元素中
+
+let xhr = new XMLHttpRequest();
+xhr.open('get', 'https://m.hsxbk.top/project/api/get_safe.php');
+xhr.send();
+xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+        let data = JSON.parse(xhr.responseText);
+        let welcomeInfo1 = document.getElementById('welcome-info1');
+        let welcomeInfo2 = document.getElementById('welcome-info2');
+
+        console.log(data)
+        welcomeInfo1.innerHTML = `成功访问次数：<b style="color:#c4d9f7">${data.res.visit}</b>`; 
+        welcomeInfo2.innerHTML = `恶意攻击次数：<b style="color:#c4d9f7">${data.res.totalcount}</b>`; 
+    }
+}
