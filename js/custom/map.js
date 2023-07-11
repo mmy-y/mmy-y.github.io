@@ -252,7 +252,7 @@ document.addEventListener("pjax:complete", showWelcome);
 // 4. 将请求成功后的数据渲染到welcome-info2元素中
 
 let xhr = new XMLHttpRequest();
-xhr.open('get', 'https://api.mmy66.cc/mmy66-api-tj.php');
+xhr.open('get', 'https://img.mmy66.cc/mmy66-api-tj.php');
 xhr.send();
 xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
