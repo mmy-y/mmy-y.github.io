@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>木木鱼免费高防CDN免费为站长扶持</title>
+      <link href="/archives/11bf1697.html"/>
+      <url>/archives/11bf1697.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="木木鱼免费高防CDN介绍："><a href="#木木鱼免费高防CDN介绍：" class="headerlink" title="木木鱼免费高防CDN介绍："></a>木木鱼免费高防CDN介绍：</h1><ul><li>本站采用<a href="https://www.mmy66.cc/">木木鱼高防CDN</a>免费套餐，防御汇总超10T，死扛到底绝不回源！</li></ul><h2 id=""><a href="#" class="headerlink" title=""></a><strong><span class="p blue">【木木鱼的扶持计划】</span></strong></h2><p>木木鱼为草根站长免费提供全方位的立体防护，每月提供<span class="p green">100G免费流量</span>【<strong>攻击不计量</strong>】，全力保护您的网站不受多种攻击的影响！</p><h2 id="-1"><a href="#-1" class="headerlink" title=""></a><span class="p blue">【木木鱼高防CDN加速】</span></h2><div class="note warning flat"><p><span class="p red">国内高防CDN需要域名备案（发工单过白，或者联系QQ过白，海外不需要过白，未备案也可以使用~</span></p></div><ol><li>国内高防CDN：节点：<span class="p red">10-20</span> 个采用国内福建<span class="p blue">泉州高防</span>节点+海外美国<span class="p blue">T防</span>节点</li><li>海外高防CDN：节点：<span class="p red">10-20</span> 个采用香港优质<span class="p green">CN2</span>线路加速及美国<span class="p blue">T防</span>兜底防御</li></ol><h2 id="-2"><a href="#-2" class="headerlink" title=""></a><strong><span class="p blue">【CDN防御的多种模式】</span></strong></h2><p>木木鱼高防CDN有多种防护模式，您可以灵活调整防护规则，以达到最佳效果.针对攻击特征自动生成多种组合 CC防御策略，防御 DDoS、CC攻击！</p><h1 id="木木鱼高防CDN接入教程"><a href="#木木鱼高防CDN接入教程" class="headerlink" title="木木鱼高防CDN接入教程"></a>木木鱼高防CDN接入教程</h1><h2 id="步骤一：注册并实名账号"><a href="#步骤一：注册并实名账号" class="headerlink" title="步骤一：注册并实名账号"></a>步骤一：<strong>注册并实名账号</strong></h2><p>先去<a href="https://www.mmy66.cc/">木木鱼官网</a>注册一个账号并领取<a href="https://www.mmy66.cc/cart?fid=1&amp;gid=8">站长免费套餐</a>.注意要<span class="p red">实名</span></p><ul><li><strong>(这里大家不用担心隐私的问题,网站实名对接支付宝蚂蚁信用，避免<span class="p red">非法违规</span>网站接入)</strong></li></ul><h2 id="步骤二：添加接入域名"><a href="#步骤二：添加接入域名" class="headerlink" title="步骤二：添加接入域名"></a>步骤二：<strong>添加接入域名</strong></h2><p>进入网站管理，下面有个新增网站.填写你的信息：<span class="p blue">域名</span>、<span class="p blue">源IP</span>、<span class="p blue">端口</span><strong>(<span class="p red">https=443，http=80</span>)</strong></p><p><img src="https://image.muerg.cn/2/2023/07/18/64b6a0cbea514.png" alt="image.png"></p><h2 id="步骤三：解析域名到CANME"><a href="#步骤三：解析域名到CANME" class="headerlink" title="步骤三：解析域名到CANME"></a>步骤三：<strong>解析域名到CANME</strong></h2><p><img src="https://image.muerg.cn/2/2023/07/18/64b6b0918b819.png" alt="image.png"></p><p>将网站<strong>域名解析</strong>到木木鱼高防CDN的<span class="p green">CANME</span>，下图是腾讯云域名解析到CANME</p><p><img src="https://image.muerg.cn/2/2023/07/18/64b6afd567d13.png" alt="image.png"></p><h2 id="步骤四：配置证书和攻击防护"><a href="#步骤四：配置证书和攻击防护" class="headerlink" title="步骤四：配置证书和攻击防护"></a>步骤四：<strong>配置证书和攻击防护</strong></h2><p><img src="https://image.muerg.cn/2/2023/07/18/64b69eac078c9.png" alt="image.png"></p><ol><li>点击CDN证书管理,新增证书将<strong>秘钥</strong>和<strong>内容</strong>分别填进去，不知道证书是什么自行百度申请</li><li>回到网站管理，点击<span class="p blue">编辑</span>按钮填写HTTP监听端口修改:80,填写HTTPS网站证书ID(先前在证书管理里面).如果网站没有设置https填写关闭<br>填写HTTPS跳转端口:443,修改回源协议:<span class="p blue">跟随协议</span>，每一步都需要点击一次修改</li></ol><ul><li>CC防护可以在安全配置里面设置，网站链接数量35 超出连接数自动开启点击验证或者其他。记得点击修改</li></ul><p>有心的朋友可以在底部添加徽标，愿各位站长越做越好~ 文章有疑问的可以带图在评论区留言<img no-lazy="" class="inline" src="https://bu.dusays.com/2023/06/14/6489b2f681d79.png" style="height:100px;"><span class="p right logo large">~本站已开启评论邮件通知~</span></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 防护 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 木木鱼高防CDN防护 </tag>
+            
+            <tag> 免费高防CDN </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>大黑客~五湖四海~</title>
       <link href="/archives/a269acd2.html"/>
       <url>/archives/a269acd2.html</url>
