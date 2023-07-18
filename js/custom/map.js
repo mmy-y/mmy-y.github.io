@@ -251,17 +251,3 @@ document.addEventListener("pjax:complete", showWelcome);
 // 3. 将请求成功后的数据渲染到welcome-info1元素中
 // 4. 将请求成功后的数据渲染到welcome-info2元素中
 
-let xhr = new XMLHttpRequest();
-xhr.open('get', 'https://api.mmy66.cc/mmy66-api-tj.php');
-xhr.send();
-xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-        let data = JSON.parse(xhr.responseText);
-        let welcomeInfo1 = document.getElementById('welcome-info1');
-        let welcomeInfo2 = document.getElementById('welcome-info2');
-
-        console.log(data)
-        welcomeInfo1.innerHTML = `成功访问次数：<b style="color:#c4d9f7">${data.res.visit}</b>`; 
-        welcomeInfo2.innerHTML = `恶意攻击次数：<b style="color:#c4d9f7">${data.res.totalcount}</b>`; 
-    }
-}

@@ -212,31 +212,6 @@
     
     
     <entry>
-      <title>别攻击了！记录Y的小博客被攻击</title>
-      <link href="/archives/c74c8b34.html"/>
-      <url>/archives/c74c8b34.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="别打了，别打了！记录Y的小博客被攻击事件"><a href="#别打了，别打了！记录Y的小博客被攻击事件" class="headerlink" title="别打了，别打了！记录Y的小博客被攻击事件"></a><font face="楷体" color="pink" size="6">别打了，别打了！记录Y的小博客被攻击事件</font></h1><ul><li>今天网站被攻击了，资源使用率以及CPU都达到了1%，菜鸟站长表示诚惶诚恐。本文介绍一下被打的流量图😎</li></ul><p><img src="https://www.helloimg.com/images/2023/05/26/oJ0Q3D.png" alt="image.png"></p><ul><li><p>昨天晚上发了配置CF防护的教程，早上醒来打开 Cloudflare WAF   发现有人正在攻击,然后站长截图发在群里面，有群友反馈我的网站已经成悬赏单子了，难搞😹</p></li><li><p>那么好，站长索性增加一个<strong>统计</strong>功能~ 统计<strong>全球访问次数</strong>，方便站长查看黑客实力~</p></li></ul><h2 id="统计说明："><a href="#统计说明：" class="headerlink" title="统计说明："></a>统计说明：</h2><ol><li>成功访问次数 + 恶意攻击次数 = 总访问次数（看<strong>总访问</strong>就可以了）</li><li>此统计为<span class="p green">全球访问次数</span>，不只是以前的国内访问次数了~</li><li>统计实时更新时间为1-5分钟，<strong>不拉黑IP，纯访问请求次数~</strong></li><li>统计前，先截图保留次数，然后结束后 相减即可得出您的一发攻击次数</li></ol><p><img src="https://bu.dusays.com/2023/07/07/64a70e2a0e8af.png" alt="image.png"></p><ul><li><p>简单的来说CC攻击就是模拟很多个用户不断地进行浏览那些需要大量的数据操作的脚本页面，也就是不断的去消耗服务器的CPU使用率，使服务器始终都有解决不完的连接一直到网站堵塞，无法正常访问网站。 <a href="cloudflare.com">Cloudflare WAF</a> 可以很好解决</p></li><li><p>如果是你的站点，可以扛得住嘛💨💨 如何防护配置见<a href="https://mmy66.cc/archives/50a7fc42.html">Cloudflare免费防护配置教程</a></p></li></ul><h2 id="对于个人博客，站长建议还是保持低调，好好输出内容，尽量避免过于招摇，惹得一些技术不高还喜欢装逼的黑客不爽了-就打咱这种菜鸟站长🙈🙈🙈"><a href="#对于个人博客，站长建议还是保持低调，好好输出内容，尽量避免过于招摇，惹得一些技术不高还喜欢装逼的黑客不爽了-就打咱这种菜鸟站长🙈🙈🙈" class="headerlink" title="对于个人博客，站长建议还是保持低调，好好输出内容，尽量避免过于招摇，惹得一些技术不高还喜欢装逼的黑客不爽了 就打咱这种菜鸟站长🙈🙈🙈"></a>对于个人博客，站长建议还是保持低调，好好输出内容，尽量避免过于招摇，惹得一些技术不高还喜欢装逼的黑客不爽了 就打咱这种菜鸟站长🙈🙈🙈</h2><p><font face="黑体" color="grey" size="6"> cloudflare正在保护你的网站： </font></p><p><img src="https://www.helloimg.com/images/2023/06/10/osp0XE.jpg" alt="image.png"></p><p>有实力的黑客可以在评论区带上<a href="cloudflare.com">ITDOG</a>死亡证明留言<img no-lazy="" class="inline" src="https://bu.dusays.com/2023/06/14/6489b2f681d79.png" style="height:100px;"><span class="p right logo large">~本站已开启评论邮件通知~</span></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 其他 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Cloudflare </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Cloudflare免费防护配置教程</title>
       <link href="/archives/50a7fc42.html"/>
       <url>/archives/50a7fc42.html</url>
@@ -256,25 +231,6 @@
             <tag> CDN防护 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>欢迎，各位大佬，对本站进行：压力测试</title>
-      <link href="/archives/273541a6.html"/>
-      <url>/archives/273541a6.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="Cloudflare防护："><a href="#Cloudflare防护：" class="headerlink" title="Cloudflare防护："></a>Cloudflare防护：</h1><p><img src="https://www.helloimg.com/images/2023/05/26/oJ0z8C.png"></p><p>小破站采用Cloudflare免费cdn：</p><ul><li>已开启CC策略防护</li><li>无视99.99%攻击~ 黑客们，快来测试😁😁😁😁😁😁😁</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 测压 </category>
-          
-      </categories>
-      
       
     </entry>
     
